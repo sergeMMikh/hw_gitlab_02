@@ -13,6 +13,11 @@
 5. Создайте новый репозиторий в GitLab, наполните его [файлами](https://github.com/netology-code/mnt-homeworks/blob/MNT-video/09-ci-06-gitlab/repository/python-api.py).
 6. Проект должен быть публичным, остальные настройки по желанию.
 
+**Решение**
+
+*Gitlab запущен на виртуальной машине с IP 192.168.33.101. К проекту подключен раннер IP 192.168.33.102*</br>
+   <img src="images/Task_0_1.png" alt="Task_0_1.png" width="500" height="auto"></br>
+
 ## Основная часть
 
 ### DevOps
