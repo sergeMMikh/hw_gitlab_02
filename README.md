@@ -15,8 +15,8 @@
 
 **Решение**
 
-*Gitlab запущен на виртуальной машине с IP 192.168.33.101. К проекту подключен раннер IP 192.168.33.102*</br>
-   <img src="images/Task_0_1.png" alt="Task_0_1.png" width="500" height="auto"></br>
+*Gitlab запущен на https://gitlab.com/. К проекту подключил ради тренировки два раннера: из обалака AWS и из WSL (Docker). *</br>
+   <img src="images/Task_0_1_.png" alt="Task_0_1.png" width="400" height="auto"></br>
 
 ## Основная часть
 
@@ -30,7 +30,17 @@
 4. Создана директория `/python_api`.
 5. Скрипт из репозитория размещён в /python_api.
 6. Точка вызова: запуск скрипта.
-7. При комите в любую ветку должен собираться docker image с форматом имени hello:gitlab-$CI_COMMIT_SHORT_SHA . Образ должен быть выложен в Gitlab registry или yandex registry.   
+7. При комите в любую ветку должен собираться docker image с форматом имени hello:gitlab-$CI_COMMIT_SHORT_SHA . Образ должен быть выложен в Gitlab registry или yandex registry.
+
+**Решение**
+
+*Для сборки контейнера и запуска Flask приложения создан [Dockerfile](repository/Dockerfile). Предварительно сборка проверена на локальной машине.*</br>
+
+*После успешного запуска предлагаемого Gitlab в Pipeline editor дефолтного pipeline отредактировал его в соответсвии с заданием.*</br>
+*Резульатат запуска Pipeline*</br>
+   <img src="images/Task_1_1_.png" alt="Task_1_1.png" width="500" height="auto"></br>
+*Проверил наличие артефакта в Container Registryю*</br>
+   <img src="images/Task_1_2_.png" alt="Task_1_2.png" width="500" height="auto"></br>
 
 ### Product Owner
 
