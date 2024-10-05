@@ -58,7 +58,6 @@
 2. Внести изменения по тексту из задания.
 3. Подготовить Merge Request, влить необходимые изменения в `master`, проверить, что сборка прошла успешно.
 
-
 ### Tester
 
 Разработчики выполнили новый Issue, необходимо проверить валидность изменений:
@@ -66,14 +65,25 @@
 1. Поднять докер-контейнер с образом `python-api:latest` и проверить возврат метода на корректность.
 2. Закрыть Issue с комментарием об успешности прохождения, указав желаемый результат и фактически достигнутый.
 
+**Решение**
+
+*Создал Issue.*</br>
+   <img src="images/Task_2_1.png" alt="Task_2_1.png" width="500" height="auto"></br>
+*Произвёл изменения в файле python-api.py. Проверил результат.*</br>
+   <img src="images/Task_2_3.png" alt="Task_2_3.png" width="500" height="auto"></br>
+*Создал Merge Request.*</br>
+   <img src="images/Task_2_4.png" alt="Task_2_4.png" width="500" height="auto"></br>
+*Закрыл Merge Request.*</br>
+   <img src="images/Task_2_5.png" alt="Task_2_5.png" width="500" height="auto"></br>
+*Закрыл Issue.*</br>
+   <img src="images/Task_2_2.png" alt="Task_2_2.png" width="500" height="auto"></br>
+
+
 ## Итог
 
-В качестве ответа пришлите подробные скриншоты по каждому пункту задания:
+- файл [gitlab-ci.yml](repository/gitlab-ci.yml);
+- [Dockerfile](repository/Dockerfile); 
+- [лог](repository/job_log.log) успешного выполнения пайплайна;
+- [решённый Issue](images/Task_3_1.png).
 
-- файл gitlab-ci.yml;
-- Dockerfile; 
-- лог успешного выполнения пайплайна;
-- решённый Issue.
 
-### Важно 
-После выполнения задания выключите и удалите все задействованные ресурсы в Yandex Cloud.
