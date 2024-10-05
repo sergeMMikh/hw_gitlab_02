@@ -35,7 +35,7 @@
 **Решение**
 
 *Для сборки контейнера и запуска Flask приложения создан [Dockerfile](repository/Dockerfile). Предварительно сборка проверена на локальной машине.*</br>
-
+   <img src="images/Task_1_3.png" alt="Task_1_3.png" width="300" height="auto"></br>
 *После успешного запуска предлагаемого Gitlab в Pipeline editor дефолтного pipeline отредактировал его в соответсвии с заданием.*</br>
 *Резульатат запуска Pipeline*</br>
    <img src="images/Task_1_1_.png" alt="Task_1_1.png" width="500" height="auto"></br>
